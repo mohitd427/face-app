@@ -1,0 +1,28 @@
+.user-grid{
+    display: grid;
+
+    grid-template-columns: repeat(4,1fr);
+    
+}
+
+.user-icons {
+     margin-top: 20px; 
+    /* padding: 0 20px;  */
+    padding-right: 20px;
+    border-top: 1px solid gray;
+    width: 100%;
+}
+
+.user-icons button{
+    font-size: 30px;
+    margin: 20px 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
+    /* background: rgb(47, 155, 155); */
+    border: none;
+    
+    
+}
+

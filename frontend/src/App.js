@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './Pages/Home';
+import MainRoutes from './Pages/MainRoutes';
 
 function App() {
   return (
     <div className="App">
-      <h1>Face APP</h1>
-      <Home/>
+      
+      <MainRoutes/>
     </div>
   );
 }
